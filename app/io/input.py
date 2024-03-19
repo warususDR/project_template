@@ -8,7 +8,7 @@ def read_from_console():
     Returns:
         str. Input received from console.
     """
-    user_input = input("Please enter your input: ")
+    user_input = input('Please enter your input: ')
     return user_input
 
 
