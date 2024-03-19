@@ -15,7 +15,7 @@ def print_to_console(text):
 def print_to_file(text, file_path):
     """
     Writes the given text to the specified file.
-    Text is not appended to the end of the file, file is rewritten.
+    Text is not appended to the end of the file, the file is rewritten.
 
     Args:
         text (str): the text to be written to the file.
@@ -37,11 +37,11 @@ def print_to_file(text, file_path):
 
 def print_with_pandas(text, file_path):
     """
-    Writes the given dataframe to the specified csv file in text format (without indexes) using pandas.
-    Text is not appended to the end of the file; the file is rewritten.
+    Writes the given dataframe to the specified csv file (without indexes) using pandas.
+    Text is not appended to the end of the file, the file is rewritten.
 
     Args:
-        text (pd.DataFrame): the text to be written to the file.
+        text (pd.DataFrame): the dataframe to be written to the file.
         file_path (str): the path of the file to write to, relative to the project path.
 
     Raises:

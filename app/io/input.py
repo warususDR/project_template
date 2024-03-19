@@ -39,14 +39,14 @@ def read_from_file(file_path):
 
 def read_with_pandas(file_path):
     """
-    Reads from a csv file by file_path using pandas and returns the file content dataframe.
+    Reads from a csv file by file_path using pandas and returns the file content as dataframe.
     If the path doesn't exist or other errors occur throws according exceptions.
 
     Args:
         file_path (str): the path of the file to read from relative to the project path.
 
     Returns:
-        pd.DataFrame. Content of the file at the requested path.
+        pd.DataFrame. DataFrame of the content of the file at the requested path.
 
     Raises:
         FileNotFoundError: If the specified file_path does not exist.
